@@ -14,7 +14,7 @@ from `loreal_reviews_cleaned.2` group by review_rating order by review_rating de
 select product_title, round(avg(review_rating),2) as avg_rating,
 count(review_id) as total_reviews from `loreal_reviews_cleaned.2`
 group by product_title order by avg_rating desc;
-#top 10 most reviewed products (only got 8)
+#top 10 most reviewed products
 select product_title, count(review_id) as total_reviews, 
 round(avg(review_rating),2) as avg_rating from `loreal_reviews_cleaned.2`
 group by product_title order by total_reviews desc;
