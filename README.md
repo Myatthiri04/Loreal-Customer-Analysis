@@ -7,7 +7,7 @@ The goal of the analysis is to demonstrate how customer feedback data can be tra
 
 Tools & Technologies
 R
-* Data cleaning
+* Data cleaning (R and Excel)
 * Data preprocessing
 SQL (MySQL)
 * Exploratory data analysis
