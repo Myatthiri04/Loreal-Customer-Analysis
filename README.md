@@ -2,7 +2,7 @@ Loreal Product Review Analysis
 
 ##Project overview 
 This project analyses customer reviews for L’Oréal beauty products to understand product performance, customer sentiment, and purchasing behaviour.
-Using a dataset of 525 product reviews, the project applies SQL-based exploratory analysis and sentiment analysis to identify patterns in product popularity, pricing impact, and customer satisfaction.
+Using a dataset of 60,000+ product reviews, the project applies SQL-based exploratory analysis and sentiment analysis to identify patterns in product popularity, pricing impact, and customer satisfaction.
 The goal of the analysis is to demonstrate how customer feedback data can be transformed into actionable insights for product and marketing teams.
 
 Tools & Technologies
@@ -18,7 +18,7 @@ Tableau
 * Dashboard development
 
 Dataset
-The dataset contains 525 L’Oréal product reviews including:
+After extracting only L'oreal products, the dataset contains 525 L’Oréal product reviews including:
 * Product title
 * Product price
 * Review rating (1–5)
@@ -27,7 +27,8 @@ The dataset contains 525 L’Oréal product reviews including:
 * Verified buyer indicator
 * Sentiment classification
 
-Key Metrics
+##Key Metrics##
+
 Metric	Value
 Total Reviews	525
 Average Rating	4.04 / 5
@@ -37,22 +38,23 @@ The overall results suggest strong customer satisfaction with L’Oréal product
 Key Analysis Performed
 Product Performance Analysis
 Products were ranked based on average ratings and number of reviews.
-Top rated product:
-L’Oréal Paris Superliner Black Lacquer
+Top rated product:L’Oréal Paris Superliner Black Lacquer, with:
 * Average rating: 4.85
 * Reviews: 33
+
 Most reviewed product:
 L’Oréal Paris Infallible Ultra Matte Liquid Les Macarons Lipstick
 * Reviews: 192
 * Average rating: 4.11
 This indicates strong engagement with specific flagship products.
 
-Product Popularity vs Satisfaction
+##Product Popularity vs Satisfaction##
 The analysis identified products that receive high engagement but lower satisfaction.
 Examples include:
 * L’Oréal Paris Matte Signature Eyeliner
 * L’Oréal Paris Infallible Ultra Matte Liquid Les Macarons Lipstick
 * L’Oréal Paris Volume Million Lashes Waterproof Mascara
+
 The Matte Signature Eyeliner showed the lowest rating among high-volume products:
 * Reviews: 130
 * Average rating: 3.59
@@ -62,7 +64,7 @@ Customer feedback suggests issues related to:
 * insufficient quantity
 These insights highlight potential product improvement opportunities.
 
-Price Tier Analysis
+##Price Tier Analysis##
 Products were grouped into mid-tier and premium price segments.
 Results show:
 Price Tier	Avg Rating	Reviews
@@ -70,7 +72,7 @@ Premium	4.19	383
 Mid	3.63	142
 Premium products demonstrate higher customer satisfaction, suggesting customers perceive greater value at higher price points.
 
-Review Trends Over Time
+##Review Trends Over Time##
 Review activity increased significantly over time, peaking in 2020 with 208 reviews.
 However, average ratings declined slightly after 2020:
 Year	Avg Rating
@@ -79,14 +81,16 @@ Year	Avg Rating
 2022	3.70
 This trend may indicate increasing customer expectations or product competition.
 
-Verified Buyer Behaviour
+##Verified Buyer Behaviour##
 Customer ratings were compared between verified buyers and non-buyers.
-Group	Avg Rating
+
+**Group	Avg Rating**
 Non-buyers	4.25
 Verified buyers	3.93
 Verified buyers tend to provide more critical and realistic product evaluations, which is consistent with typical e-commerce review behaviour.
 
-Sentiment Analysis
+##Sentiment Analysis##
+
 Customer reviews were classified into three sentiment categories.
 Sentiment	Review Count
 Positive:	3453
@@ -95,7 +99,7 @@ Negative:	486
 Positive sentiment accounts for approximately 80% of total reviews, indicating strong overall brand perception.
 Sentiment trends remain stable across years, with positive sentiment consistently above 80%.
 
-Key Business Insights
+##Key Business Insights##
 The analysis reveals several important insights:
 • L’Oréal products maintain strong overall customer satisfaction • A small number of products drive the majority of customer engagement.
 • Premium products tend to receive higher ratings • Certain high-volume products may require quality improvements.
