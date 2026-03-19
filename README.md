@@ -1,6 +1,7 @@
 Loreal Product Review Analysis 
 
 ##Project overview 
+
 This project analyses customer reviews for L’Oréal beauty products to understand product performance, customer sentiment, and purchasing behaviour.
 Using a dataset of 60,000+ product reviews, the project applies SQL-based exploratory analysis and sentiment analysis to identify patterns in product popularity, pricing impact, and customer satisfaction.
 The goal of the analysis is to demonstrate how customer feedback data can be transformed into actionable insights for product and marketing teams.
